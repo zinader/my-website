@@ -10,19 +10,25 @@ function BodyComponent() {
     <div>
       <div className="body">
         <div className="main-heading">
-          <h1>Here are some things that I'm doing right now!</h1>
+          <h1>Experience</h1>
         </div>
         <div className="positions">
           <ul>
+            <li>
+              Software Engineer - <span className="work">Fiskil</span>
+              <span className="time">July 2021 - Present</span>
+            </li>
             <li>
               Research Intern -{" "}
               <span className="work">
                 Centre for Spatial Data Infrastructures and Land Administration
               </span>
+              <span className="time">Feb 2021 - June 2021</span>
             </li>
             <li>
               Co-Lead -{" "}
               <span className="work">Google Developers Student Club</span>
+              <span className="time">June 2020 - June 2021</span>
             </li>
           </ul>
         </div>
@@ -30,40 +36,6 @@ function BodyComponent() {
           <h1>Projects</h1>
 
           <div className="cards">
-            <Card className="card" variant="outlined">
-              <CardContent>
-                <h2>
-                  FindHacks{" "}
-                  <span className="project-github">
-                    <a
-                      href="https://github.com/parthx9/FindHacks"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FaCodeBranch />
-                    </a>
-                  </span>
-                </h2>
-
-                <h3>
-                  A web application which finds all the hackathons by scraping
-                  multiple websites on an hourly basis with a cron job.
-                  Currently an open-source project with developers from around
-                  the world. Used by more than 500 users on the first day of
-                  deployment.
-                </h3>
-                <span className="tech-stack">React.js Flask</span>
-              </CardContent>
-              <CardActions className="card-button">
-                <a
-                  href="https://findhacks.co/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button size="small">View Project</Button>
-                </a>
-              </CardActions>
-            </Card>
             <Card className="card" variant="outlined">
               <CardContent>
                 <h2>
@@ -162,7 +134,43 @@ function BodyComponent() {
                 </a>
               </CardActions>
             </Card>
+            <Card className="card" variant="outlined">
+              <CardContent>
+                <h2>
+                  Average Grades{" "}
+                  <span className="project-github">
+                    <a
+                      href="https://github.com/zinader/Unimelb-Grades"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaCodeBranch />
+                    </a>
+                  </span>
+                </h2>
+
+                <h3>
+                  A web application that helps students view grades that other
+                  students have attained in the past.Here you can find an idea
+                  of the subject scores people have attained in the past
+                  semesters.
+                </h3>
+                <span className="tech-stack">React.js Node.js</span>
+              </CardContent>
+              <CardActions className="card-button">
+                <a href="https://grades.tech/" target="_blank" rel="noreferrer">
+                  <Button size="small">View Project</Button>
+                </a>
+              </CardActions>
+            </Card>
           </div>
+        </div>
+        <div className="footer">
+          <h3>
+            If you ever want to have a chat. You can send me a text{" "}
+            <a href="mailto:pulkit@student.unimelb.edu.au">here</a> or hit me up
+            on Facebook :)
+          </h3>
         </div>
       </div>
     </div>

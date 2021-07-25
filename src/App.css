@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 
 * {
   /* background-color: rgb(10, 25, 47); */
@@ -19,6 +20,7 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   color: aliceblue;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .github {
@@ -114,6 +116,27 @@ body {
   font-weight: bold;
 }
 
+.time {
+  display: block;
+  margin-top: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  color: aqua;
+}
+
+.footer {
+  margin-bottom: 40px;
+}
+
+.footer h3 {
+  font-size: 20px;
+}
+
+.footer a {
+  color: aqua;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 768px) {
   .header {
     font-size: 14px;
@@ -121,12 +144,12 @@ body {
 
   .linkedin {
     top: 32px;
-    right: 100px;
+    right: 70px;
   }
 
   .github {
     top: 32px;
-    right: 50px;
+    right: 30px;
   }
 
   .main-heading {
